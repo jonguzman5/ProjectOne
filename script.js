@@ -97,7 +97,7 @@ $(document).keydown(function(key) {
   if(score == 2000){
     alert("You Win!");
      location.reload();
-  }if(score < 0){
+  }if(score == -2000){
   alert("You Lose!");
 }
 });
