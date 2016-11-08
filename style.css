@@ -1,0 +1,133 @@
+.start {
+  background: url('music.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.start {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  opacity: 0.98;
+}
+.starth1{
+  font-family: 'Press Start 2P';
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  transform: translateX(0%) translateY(300%);
+}
+.startbtn{
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  color:white;
+  background-color: red;
+  font-family: 'Press Start 2P';
+  font-size: 6pt;
+  transform: translateX(900%) translateY(250%);
+}
+body {
+  background: url('soundbars.gif');
+  background-size: cover;
+}
+#scoretable{
+  background-color: red;
+  color: pink;
+  font-size: 24px;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  opacity: 0.9;
+  transform: translateX(0%) translateY(-150%);
+}
+#score{
+  background-color: darkred;
+  color: pink;
+  font-size: 16px;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  opacity: 0.9;
+}
+#leftdot{
+position: relative;
+margin: 0 0 0 157px;
+width: 30px;
+height: 30px;
+background: url('dot.png');
+border-radius: 100px;
+display: inline-block;
+float: left;
+}
+#middot1{
+position: relative;
+margin: 0 0 0 -543px;
+width: 30px;
+height: 30px;
+background: url('dot.png');
+border-radius: 100px;
+display: inline-block;
+}
+#middot2{
+position: relative;
+margin: 0 0 0 364px;
+width: 30px;
+height: 30px;
+background: url('dot.png');
+border-radius: 100px;
+display: inline-block;
+}
+#rightdot{
+position: relative;
+margin: -64px 162px 0 0;
+width: 30px;
+height: 30px;
+background: url('dot.png');
+border-radius: 100px;
+display: inline-block;
+float: right;
+}
+.falling{
+animation: meteor 1s infinite,
+                  glow 1500ms infinite;
+}
+@keyframes meteor {
+    from {top:0px;}
+    to {top:680px;}
+}
+@keyframes glow {
+  10% { background-color: #ff0000; box-shadow: 0 0 10px #7f0000; }
+  40% { background-color: #ffff00; box-shadow: 0 0 10px #7f7f00; }
+  50% { background-color: #5DFC0A; box-shadow: 0 0 10px #308014; }
+}
+ul{
+  color: black;
+  word-spacing: 43px;
+  font-weight: bold;
+  position: absolute;
+}
+#ay {
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  margin: 675px 0 0 125px;
+  font-family: 'Press Start 2P';
+}
+#es {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 641px 0 0 486px;
+  font-family: 'Press Start 2P';
+}
+#de {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 607px 0 0 846px;
+  font-family: 'Press Start 2P';
+}
+#ef {
+  text-decoration: none;
+  list-style-type: none;
+  float: right;
+  margin: 607px -1215px 0 0;
+  font-family: 'Press Start 2P';
+}
