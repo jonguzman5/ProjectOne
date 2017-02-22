@@ -1,4 +1,6 @@
-![](http://www.giphy.com/gifs/3o84Udys5v1oAjdU5y) Syupeo-Eum-ag-Seogsa-Du
+# [](http://i.giphy.com/3o84Udys5v1oAjdU5y.gif) Syupeo-Eum-ag-Seogsa-Du
+
+
 ### User Stories
 
 This game is for those who are curious and would like to try a new 
