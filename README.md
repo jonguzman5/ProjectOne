@@ -1,4 +1,4 @@
-# ![alt text](http://www.giphy.com/gifs/3o84Udys5v1oAjdU5y "Project Image") Syupeo-Eum-ag-Seogsa-Du
+# ![]('Syupeo-Eum-ag-Seogsa-Du.gif') Syupeo-Eum-ag-Seogsa-Du
 
 ### User Stories
 
