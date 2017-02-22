@@ -24,11 +24,11 @@ Upon missing the target the user will lose points.
 
 ### Technologies used
 
-* **HTML:** * Used to render game in the browser
-* **CSS:** * To apply styling(color, positioning, etc) and animations(keyframes)
-* **JavaScript/jQuery:** * Overall functionality, to determine win/lose, manipulating the keyframes, etc.
-* **Git: Used to set up repositories as well as site deployment**
-* **Google Chrome: ** *Developer tools used for debugging
+* **HTML:** Used to render game in the browser
+* **CSS:** To apply styling(color, positioning, etc) and animations(keyframes)
+* **JavaScript/jQuery:** Overall functionality, to determine win/lose, manipulating the keyframes, etc.
+* **Git:** Used to set up repositories as well as site deployment
+* **Google Chrome:** Developer tools used for debugging
 
 ###Installation Instructions
 * Installation not required as this game runs directly on the browser.
