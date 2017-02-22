@@ -1,5 +1,4 @@
-# ![]('Syupeo-Eum-ag-Seogsa-Du.gif') Syupeo-Eum-ag-Seogsa-Du
-
+![](http://www.giphy.com/gifs/3o84Udys5v1oAjdU5y) Syupeo-Eum-ag-Seogsa-Du
 ### User Stories
 
 This game is for those who are curious and would like to try a new 
