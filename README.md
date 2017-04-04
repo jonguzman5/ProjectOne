@@ -1,6 +1,4 @@
-# ![alt-tag](http://i.giphy.com/3o84Udys5v1oAjdU5y.gif) 
-# Syupeo-Eum-ag-Seogsa-Du
-
+# ![alt-tag](http://i.giphy.com/3o84Udys5v1oAjdU5y.gif) Syupeo-Eum-ag-Seogsa-Du
 
 ### User Stories
 
@@ -30,7 +28,7 @@ Upon missing the target the user will lose points.
 * **Git:** Used to set up repositories as well as site deployment
 * **Google Chrome:** Developer tools used for debugging
 
-###Installation Instructions
+### Installation Instructions
 * Installation not required as this game runs directly on the browser.
 
 ### Unsolved Problems
