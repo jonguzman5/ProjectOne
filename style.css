@@ -9,7 +9,7 @@
   z-index: 2;
   opacity: 0.98;
 }
-.starth1{
+.starth1 {
   font-family: 'Press Start 2P';
   font-size: 50px;
   font-weight: bold;
@@ -18,11 +18,11 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   transform: translateX(0%) translateY(300%);
 }
-.startbtn{
+.startbtn {
   width: 75px;
   height: 75px;
   border-radius: 100px;
-  color:white;
+  color: white;
   background-color: red;
   font-family: 'Press Start 2P';
   font-size: 6pt;
@@ -32,7 +32,7 @@ body {
   background: url('soundbars.gif');
   background-size: cover;
 }
-#scoretable{
+#scoretable {
   background-color: red;
   color: pink;
   font-size: 24px;
@@ -41,7 +41,7 @@ body {
   opacity: 0.9;
   transform: translateX(0%) translateY(-150%);
 }
-#score{
+#score {
   background-color: darkred;
   color: pink;
   font-size: 16px;
@@ -49,7 +49,7 @@ body {
   text-align: center;
   opacity: 0.9;
 }
-#leftdot{
+#leftdot {
 position: relative;
 margin: 0 0 0 157px;
 width: 30px;
@@ -59,7 +59,7 @@ border-radius: 100px;
 display: inline-block;
 float: left;
 }
-#middot1{
+#middot1 {
 position: relative;
 margin: 0 0 0 -543px;
 width: 30px;
@@ -67,8 +67,9 @@ height: 30px;
 background: url('dot.png');
 border-radius: 100px;
 display: inline-block;
+text-align: center;
 }
-#middot2{
+#middot2 {
 position: relative;
 margin: 0 0 0 364px;
 width: 30px;
@@ -76,8 +77,9 @@ height: 30px;
 background: url('dot.png');
 border-radius: 100px;
 display: inline-block;
+text-align: center;
 }
-#rightdot{
+#rightdot {
 position: relative;
 margin: -64px 162px 0 0;
 width: 30px;
@@ -87,7 +89,7 @@ border-radius: 100px;
 display: inline-block;
 float: right;
 }
-.falling{
+.falling {
 animation: meteor 1s infinite,
                   glow 1500ms infinite;
 }
@@ -100,7 +102,7 @@ animation: meteor 1s infinite,
   40% { background-color: #ffff00; box-shadow: 0 0 10px #7f7f00; }
   50% { background-color: #5DFC0A; box-shadow: 0 0 10px #308014; }
 }
-ul{
+ul {
   color: black;
   word-spacing: 43px;
   font-weight: bold;

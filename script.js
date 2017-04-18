@@ -1,18 +1,21 @@
-jQuery(function() {
+jQuery(function(){
 
+//Pre-game Components
+var $startbtn = ('.startbtn');
+var $startscreen = ('.start');
+//Game Components
 var score = 0;
 var $points = $('#points');
 var $score =$('#score');
 var $dots = ['#leftdot','#middot1', '#middot2','#rightdot'];
 
-var $startbtn = ('.startbtn');
-var $startscreen = ('.start');
-
-$($startbtn).click(function() {
+//Pre-game Function
+$($startbtn).click(function(){
   $($startscreen).hide();
   $descent();
 });
 
+//Music function
 var $descent = function(){
 var $levelplaylist = [
 "BAPThatsMyJam.mp3",
@@ -27,6 +30,7 @@ var audio = new Audio($randomsong);
 audio.play();
 }
 
+//Game Function
 setInterval(function(){
   $('.falling').each(function(){
     $(this).attr('class','')
@@ -35,6 +39,7 @@ setInterval(function(){
   $(random_dot).attr('class','falling')
 },1000)
 
+//Key Interaction
 $(document).keydown(function(key) {
   if (key.which == 65){
     $leftdottop = Math.floor($('#leftdot').css('top').replace('px',''))
@@ -94,6 +99,7 @@ $(document).keydown(function(key) {
       $score.text(score);
     }
   }
+//Winning Function
   if(score == 2000){
     alert("You Win!");
      location.reload();
